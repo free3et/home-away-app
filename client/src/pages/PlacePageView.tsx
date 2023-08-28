@@ -44,7 +44,7 @@ export const PlacePageView = () => {
       });
   }, [id]);
 
-  if (!place) return;
+  if (!place) return <Loader />;
 
   const {
     _id,

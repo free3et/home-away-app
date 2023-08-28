@@ -35,7 +35,7 @@ export const BookingPlacePage = () => {
 
   const deleteBookingById = () => {
     if (id) {
-      axios.delete(`/bookings/${id}`).then((response) => {
+      axios.delete(`/bookings/${id}`).then(() => {
         setBooking(null);
       });
     }

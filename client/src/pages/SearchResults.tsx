@@ -9,7 +9,7 @@ export const SearchResults = () => {
   const { searchResults, searchTerm, setSearchTerm, setSearchResults } =
     useSearchContext();
 
-  const [places, setPlaces] = useState<PlaceProps[]>([]);
+  const [, setPlaces] = useState<PlaceProps[]>([]);
   const [redirect, setRedirect] = useState<string | null>(null);
 
   const backToPlaces = () => {

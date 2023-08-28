@@ -1,5 +1,5 @@
 interface ModalAlertProps {
-  type: string;
+  type: 'success' | 'error' | 'info';
   message: string;
 }
 
