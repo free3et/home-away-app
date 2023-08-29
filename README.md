@@ -5,6 +5,20 @@ Welcome to the Home Away project! This is a full-stack application built with Re
 
 ![image](https://github.com/free3et/home-away-app/assets/19286076/612caa82-f09a-4552-93b0-54de7e91cd73)
 
+## Technologies Used
+### Frontend:
+- The application was created using
+- Vite [https://vitejs.dev/](https://vitejs.dev/),
+- React 18.2 [https://react.dev/](https://react.dev/),
+- TypeScript [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+- React Router [https://reactrouter.com/en/main](https://reactrouter.com/en/main)
+- Tailwind CSS [https://tailwindcss.com/](https://tailwindcss.com/)
+
+### Backend:
+- Node.js [https://nodejs.org/](https://nodejs.org/)
+- Express [https://expressjs.com/](https://expressjs.com/)
+- MongoDB [https://www.mongodb.com/](https://www.mongodb.com/)
+
 ## Features
 
 - Browse and search for vacation places.
@@ -62,19 +76,7 @@ This will start the backend server using Node.js and Express.
 
 Open your browser and navigate to [http://localhost:5173](http://localhost:5173/home-away/) to access the application.
 
-## Technologies Used
-### Frontend:
-- The application was created using
-- Vite [https://vitejs.dev/](https://vitejs.dev/),
-- React 18.2 [https://react.dev/](https://react.dev/),
-- TypeScript [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
-- React Router [https://reactrouter.com/en/main](https://reactrouter.com/en/main)
-- Tailwind CSS [https://tailwindcss.com/](https://tailwindcss.com/)
 
-### Backend:
-- Node.js [https://nodejs.org/](https://nodejs.org/)
-- Express [https://expressjs.com/](https://expressjs.com/)
-- MongoDB [https://www.mongodb.com/](https://www.mongodb.com/)
 
 
 
