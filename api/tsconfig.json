@@ -7,11 +7,11 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "declaration": true
+    "declaration": true,
+    "declarationDir": "./dist/typings",
+    "types": ["node", "mongoose", "express"],
+    "typeRoots": ["./node_modules/@types"]
     //"emitDecoratorMetadata": true
   },
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts" /* Виключення тестових файлів (якщо такі є) */
-  ]
+  "exclude": ["node_modules", "**/*.spec.ts", "dist/typings"]
 }
